@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&family=Orbitron&family=Raleway:ital,wght@1,200&display=swap');
+*{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+}
+
+div {
+    height: 33.33vh;
+}
+#celsius {
+    border-top: 4px solid red;
+}
+#kelvin{
+    border-top: 4px solid red;
+}
+
+::webkit-input-placeholder{
+    color: #333333;
+
+}
+::-moz-placeholder{
+    color: #333333;
+}
+::-ms-input-placeholder{
+    color: #333333;
+}
+
+input[type= number] {
+    width: 100%;
+    height: 100%;
+    background: black;
+    color: white;
+    font-family: IBM Plex Sans, sans-serif;
+    font-size: 10em;
+    text-align: center;
+    border: 0;
+    outline: none;
+    font-weight: bold;
+
+}
